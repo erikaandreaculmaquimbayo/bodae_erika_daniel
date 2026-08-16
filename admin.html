@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panel — Daniel & Erika</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="admin.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>Daniel & Erika</h1>
+      <p>Panel privado de los novios 💍</p>
+    </div>
+
+    <div class="tabs">
+      <button
+        class="tab active"
+        onclick="mostrarPanel('confirmaciones', event)"
+      >
+        ✅ Confirmaciones
+      </button>
+      <button class="tab" onclick="mostrarPanel('mensajes', event)">
+        💌 Mensajes
+      </button>
+    </div>
+
+    <button class="btn-refresh" onclick="cargarTodo()">🔄 Actualizar</button>
+
+    <p class="ultima-actualizacion" id="ultima-actualizacion">
+      Última actualización: ahora
+    </p>
+
+    <!-- PANEL CONFIRMACIONES -->
+    <div class="panel active" id="panel-confirmaciones">
+      <div class="resumen">
+        <div class="resumen-card">
+          <span id="total-si">—</span>
+          <p>Confirmados</p>
+        </div>
+        <div class="resumen-card">
+          <span id="total-no">—</span>
+          <p>No van</p>
+        </div>
+        <div class="resumen-card">
+          <span id="total-personas">—</span>
+          <p>Total personas</p>
+        </div>
+        <div class="resumen-card">
+          <span id="total-daniel">—</span>
+          <p>Con Daniel</p>
+        </div>
+        <div class="resumen-card">
+          <span id="total-erika">—</span>
+          <p>Con Erika</p>
+        </div>
+      </div>
+
+      <div class="lista" id="lista-confirmaciones">
+        <p class="cargando">Cargando...</p>
+      </div>
+    </div>
+
+    <!-- PANEL MENSAJES -->
+    <div class="panel" id="panel-mensajes">
+      <div class="lista" id="lista-mensajes">
+        <p class="cargando">Cargando...</p>
+      </div>
+    </div>
+
+    <script src="admin.js"></script>
+  </body>
+</html>

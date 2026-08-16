@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daniel & Erika | Nuestra Boda</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- RAMAS EUCALIPTO -->
+
+    <!-- RAMAS EUCALIPTO -->
+    <img class="rama-deco rama-tl" src="multimedia/hojas.jpg" alt="" />
+    <img class="rama-deco rama-tr" src="multimedia/hojas.jpg" alt="" />
+    <img class="rama-deco rama-bl" src="multimedia/hojas.jpg" alt="" />
+    <img class="rama-deco rama-br" src="multimedia/hojas.jpg" alt="" />
+
+    <!-- SOBRE DE BIENVENIDA -->
+    <div id="envelope">
+      <div class="letter">
+        <h2>💌</h2>
+
+        <h1>Daniel & Erika</h1>
+
+        <p>11 Octubre 2026</p>
+        <br />
+
+        <button id="openInvitation">Abrir Invitación</button>
+      </div>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero reveal">
+      <div class="hero-content">
+        <h1>Daniel & Erika</h1>
+
+        <h2>¡Nos Casamos!</h2>
+
+        <p>11 Octubre 2026</p>
+        <br />
+
+        <a href="#calendario" class="btn"> Ver Invitación </a>
+      </div>
+    </section>
+
+    <!-- SALUDO -->
+    <section class="reveal saludo-section">
+      <p class="saludo-texto">El amor nos unió</p>
+
+      <p class="saludo-sub">
+        y ahora queremos que tú seas parte de este momento tan especial.
+        ¡Bienvenido(a)! ❤️
+      </p>
+    </section>
+
+    <!-- CALENDARIO -->
+    <br />
+    <section id="calendario" class="reveal wedding-card">
+      <h2 class="section-title">11 Octubre 2026</h2>
+
+      <p class="subtitle">DO LUN MAR MIE JUE VIE SAB</p>
+
+      <div class="calendar">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+
+        <div class="heart-day">11</div>
+        <div>12</div>
+        <div>13</div>
+        <div>14</div>
+        <div>15</div>
+        <div>16</div>
+        <div>17</div>
+
+        <div>18</div>
+        <div>19</div>
+        <div>20</div>
+        <div>21</div>
+        <div>22</div>
+        <div>23</div>
+        <div>24</div>
+
+        <div>25</div>
+        <div>26</div>
+        <div>27</div>
+        <div>28</div>
+        <div>29</div>
+        <div>30</div>
+        <div>31</div>
+      </div>
+    </section>
+
+    <!-- CONTADOR -->
+    <section class="reveal">
+      <h2 class="section-title">Faltan</h2>
+
+      <div class="countdown">
+        <div class="box">
+          <span id="days">0</span>
+          Días
+        </div>
+
+        <div class="box">
+          <span id="hours">0</span>
+          Horas
+        </div>
+
+        <div class="box">
+          <span id="minutes">0</span>
+          Minutos
+        </div>
+
+        <div class="box">
+          <span id="seconds">0</span>
+          Segundos
+        </div>
+      </div>
+    </section>
+
+    <!-- ITINERARIO -->
+    <section class="reveal">
+      <h2 class="section-title">Itinerario del Gran Día</h2>
+
+      <p class="story">
+        Queremos compartir contigo cada momento especial de nuestra celebración.
+      </p>
+
+      <p class="itinerario-puntualidad">
+        Cada momento de este día es especial para nosotros, por eso te pedimos
+        estar puntual. ❤️
+      </p>
+
+      <br />
+
+      <div class="itinerario-v">
+        <div class="itv-item">
+          <div class="itv-left">
+            <div class="itv-dot">⛪</div>
+            <div class="itv-line"></div>
+          </div>
+          <div class="itv-body">
+            <div class="itv-time">3:30 PM</div>
+            <div class="itv-title">Ceremonia Religiosa</div>
+            <div class="itv-place">Parroquia Maria Reina Palmas Del Vergel</div>
+            <button
+              class="itv-btn"
+              onclick="
+                window.open(
+                  'https://maps.app.goo.gl/7GbqbNz1b2HwPxVq8',
+                  '_blank',
+                )
+              "
+            >
+              📍 Ver ubicación
+            </button>
+          </div>
+        </div>
+
+        <div class="itv-item">
+          <div class="itv-left">
+            <div class="itv-dot">🥂</div>
+            <!-- elimina la línea que estaba aquí -->
+          </div>
+          <div class="itv-body">
+            <div class="itv-time">6:00 PM - 10:00 PM</div>
+            <div class="itv-title">Recepción</div>
+            <div class="itv-place">El Churrasco - Sede Jordán</div>
+            <button
+              class="itv-btn"
+              onclick="
+                window.open(
+                  'https://maps.app.goo.gl/eGjU2uYgbyq8py438',
+                  '_blank',
+                )
+              "
+            >
+              📍 Ver ubicación
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HISTORIA -->
+    <section id="historia" class="reveal">
+      <h2 class="section-title">Nuestra Historia</h2>
+
+      <p class="story">
+        Después de compartir momentos inolvidables, aventuras y sueños, hemos
+        decidido unir nuestras vidas para siempre ❤️
+      </p>
+    </section>
+
+    <!-- FRASE ROMÁNTICA -->
+    <section class="reveal frase-section">
+      <div class="frase-card">
+        <span class="frase-comilla">"</span>
+
+        <p class="frase-texto">
+          Llevamos tres años cantando, bailando, riendo, aprendiendo a
+          conocernos y a disfrutarnos. El camino para construirnos como pareja
+          ha estado lleno de experiencias gratificantes y de personas
+          maravillosas con las que queremos celebrar nuestro amor.
+        </p>
+
+        <span class="frase-firma">— Daniel & Erika 💛</span>
+      </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section id="galeria" class="reveal">
+      <h2 class="section-title">Nuestros Momentos</h2>
+
+      <div class="gallery">
+        <img src="multimedia/foto1.jpeg" alt="Foto 1" />
+        <img src="multimedia/foto2.jpg" alt="Foto 2" />
+        <img src="multimedia/foto3.jpg" alt="Foto 3" />
+        <img src="multimedia/foto4.jpg" alt="Foto 4" />
+        <img src="multimedia/foto5.jpeg" alt="Foto 5" />
+        <img src="multimedia/foto6.jpeg" alt="Foto 6" />
+        <img src="multimedia/foto7.jpeg" alt="Foto 7" />
+        <img src="multimedia/foto8.jpeg" alt="Foto 8" />
+        <img src="multimedia/foto9.jpeg" alt="Foto 9" />
+        <img src="multimedia/foto10.jpg" alt="Foto 10" />
+        <img src="multimedia/foto11.jpg" alt="Foto 11" />
+        <img src="multimedia/foto12.jpg" alt="Foto 12" />
+      </div>
+    </section>
+
+    <!-- REGALO -->
+    <section class="reveal regalo-section">
+      <h2 class="section-title">Regalo</h2>
+
+      <div class="regalo-card">
+        <span class="regalo-icon">✉️</span>
+
+        <p class="regalo-titulo">Tu presencia es nuestro mejor regalo</p>
+
+        <p class="regalo-texto">
+          Tendremos un espacio especial para recibir los sobres durante la
+          celebración lluvia de sobres. 💛
+        </p>
+      </div>
+    </section>
+
+    <!-- DRESS CODE — OPCIÓN D -->
+    <section class="reveal dresscode">
+      <h2 class="section-title">Vestimenta</h2>
+
+      <span class="dc-badge">✦ Vestimenta ✦</span>
+
+      <p class="dc-intro">
+        Ponte tu mejor traje y ven a compartir con nosotros este día que tanto
+        hemos soñado. ✨
+      </p>
+
+      <div class="dc-gender-row">
+        <div class="dc-g-card">
+          <span class="dc-g-icon">👗</span>
+          <div class="dc-g-txt">
+            <strong>Mujeres</strong>
+            <span>Ropa a tu gusto</span>
+          </div>
+        </div>
+
+        <div class="dc-g-card">
+          <span class="dc-g-icon">🤵</span>
+          <div class="dc-g-txt">
+            <strong>Hombres</strong>
+            <span>Ropa a tu gusto</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="dc-alert">
+        <p class="dc-alert-head">🚫 Colores exclusivos de los novios</p>
+
+        <div class="dc-pills">
+          <div class="dc-pill dc-p-negro">
+            <div class="dc-dot" style="background: #eee"></div>
+            Negro
+          </div>
+          <div class="dc-pill dc-p-blanco">
+            <div class="dc-dot" style="background: #ddd"></div>
+            Blanco
+          </div>
+          <div class="dc-pill dc-p-marfil">
+            <div
+              class="dc-dot"
+              style="background: #fffad0; border: 1px solid #ddd"
+            ></div>
+            Marfil
+          </div>
+          <div class="dc-pill dc-p-azulclaro">
+            <div
+              class="dc-dot"
+              style="background: #b0d0f0; border: 1px solid #aaa"
+            ></div>
+            Azul claro
+          </div>
+          <div class="dc-pill dc-p-azuloscuro">
+            <div class="dc-dot" style="background: #fff; opacity: 0.7"></div>
+            Azul oscuro
+          </div>
+        </div>
+
+        <p class="dc-alert-foot">
+          ¡Estos colores están reservados únicamente para los novios! Te pedimos
+          con mucho cariño no usarlos ese día. 🙏
+        </p>
+      </div>
+    </section>
+
+    <!-- MURO DE MENSAJES -->
+    <section class="reveal muro-section">
+      <h2 class="section-title">Mensaje para los Novios</h2>
+
+      <p class="story">
+        Déjanos un mensaje de felicitación que guardaremos para siempre. 💌
+      </p>
+
+      <div class="muro-form">
+        <input
+          type="text"
+          id="muro-nombre"
+          placeholder="Tu nombre"
+          maxlength="50"
+        />
+
+        <textarea
+          id="muro-mensaje"
+          placeholder="Escribe tu mensaje aquí..."
+          maxlength="300"
+          rows="3"
+        ></textarea>
+
+        <button onclick="enviarMensaje()">💌 Enviar mensaje</button>
+
+        <p class="muro-contador"><span id="muro-chars">0</span>/300</p>
+      </div>
+    </section>
+
+    <!-- CONFIRMACIÓN — OPCIÓN B -->
+    <section class="reveal confirm-section">
+      <h2 class="section-title">Confirmación de Asistencia</h2>
+
+      <p class="confirm-sub">Elige con quién deseas confirmar</p>
+
+      <div class="confirm-nombre-wrap" id="confirm-nombre-wrap">
+        <input
+          type="text"
+          id="confirm-nombre"
+          placeholder="Escribe tu nombre completo"
+          maxlength="60"
+        />
+      </div>
+
+      <div class="confirm-cards">
+        <div class="confirm-card">
+          <span class="confirm-icon">🤵</span>
+          <p class="confirm-name">Daniel</p>
+          <p class="confirm-role">El Novio</p>
+          <button
+            class="confirm-btn-novio"
+            onclick="confirmarAsistencia('novio', true)"
+          >
+            💚 Sí asistiré
+          </button>
+          <button
+            class="confirm-btn-novio confirm-btn-no"
+            onclick="confirmarAsistencia('novio', false)"
+          >
+            No podré ir
+          </button>
+        </div>
+
+        <div class="confirm-card">
+          <span class="confirm-icon">👰</span>
+          <p class="confirm-name">Erika</p>
+          <p class="confirm-role">La Novia</p>
+          <button
+            class="confirm-btn-novia"
+            onclick="confirmarAsistencia('novia', true)"
+          >
+            💜 Sí asistiré
+          </button>
+          <button
+            class="confirm-btn-novia confirm-btn-no"
+            onclick="confirmarAsistencia('novia', false)"
+          >
+            No podré ir
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CANCIÓN -->
+    <section class="reveal" id="cancion">
+      <h2 class="section-title">Nuestra Canción</h2>
+
+      <div class="player-card">
+        <div class="player-top">
+          <div class="vinyl" id="vinyl">
+            <div class="vinyl-ring r1"></div>
+            <div class="vinyl-ring r2"></div>
+            <div class="vinyl-ring r3"></div>
+            <div class="vinyl-center"></div>
+          </div>
+
+          <div class="player-info">
+            <p class="player-song">Un Pacto Con Dios</p>
+            <p class="player-artist"><Juan Fernández></Juan></p>
+            <p class="player-label">♪ Nuestra canción especial</p>
+          </div>
+        </div>
+
+        <audio
+          id="audio"
+          src="multimedia/Un Pacto Con Dios - Rabito.mp3"
+        ></audio>
+
+        <div class="player-progress-wrap">
+          <div class="player-progress" id="progressBar">
+            <div class="player-progress-fill" id="progressFill"></div>
+          </div>
+          <div class="player-times">
+            <span id="currentTime">0:00</span>
+            <span id="totalTime">0:00</span>
+          </div>
+        </div>
+
+        <div class="player-controls">
+          <button
+            class="player-btn-ghost"
+            id="btnRewind"
+            title="Retroceder 10s"
+          >
+            ⟪
+          </button>
+          <button class="player-btn-play" id="btnPlay">▶</button>
+          <button
+            class="player-btn-ghost"
+            id="btnForward"
+            title="Adelantar 10s"
+          >
+            ⟫
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENSAJE FINAL -->
+    <section class="reveal">
+      <h2 class="section-title">Te Esperamos</h2>
+
+      <p class="story">
+        Gracias por acompañarnos en este momento tan importante de nuestras
+        vidas ❤️
+      </p>
+    </section>
+
+    <!-- LLUVIA DE SOBRES ANIMADA -->
+    <div id="envelopes"></div>
+
+    <!-- FOOTER -->
+    <footer>
+      <h2>Erika & Daniel</h2>
+
+      <p>Gracias por acompañarnos en este día tan especial.</p>
+
+      <p>25 Octubre 2025 ❤️</p>
+    </footer>
+
+    <!-- MENÚ FLOTANTE -->
+    <nav class="bottom-nav">
+      <a href="#calendario">
+        <span class="nav-icon">📅</span>
+        <span class="nav-text">Fecha</span>
+      </a>
+      <a href="#historia">
+        <span class="nav-icon">❤️</span>
+        <span class="nav-text">Historia</span>
+      </a>
+      <a href="#galeria">
+        <span class="nav-icon">📸</span>
+        <span class="nav-text">Fotos</span>
+      </a>
+      <a href="#mapa">
+        <span class="nav-icon">📍</span>
+        <span class="nav-text">Lugar</span>
+      </a>
+    </nav>
+
+    <script src="script.js"></script>
+  </body>
+</html>
